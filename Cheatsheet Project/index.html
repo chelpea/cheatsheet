@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display & Positioning Cheatsheet</title>
+    <link href="resources/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="center">CSS Display & Positioning Cheatsheet</h1>
+    <table class="center">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Value(s)</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>z-index</td>
+            <td>+/- integer</td>
+            <td>specifies how far back or how far forward an element will appear on a web page when it overlaps other elements.</td>
+        </tr>
+        <tr>
+            <td>display</td>
+            <td>block, inline, inline-block</td>
+            <td><span>Block-level</span> elements take up the full width of their container with line breaks before and after, and can have their height and width manually adjusted.
+
+                <span>Inline</span> elements take up as little space as possible, flow horizontally, and cannot have their width or height manually adjusted.
+                
+                <span>Inline-block</span> elements can appear next to each other, and can have their width and height manually adjusted.</td>
+        <tr>
+            <td>position</td>
+            <td>static, fixed, absolute, relative</td>
+            <td>When the CSS position has a value of <span>fixed</span>, it is set/pinned to a specific spot on a page. The fixed element stays the same regardless of scrolling.
+                
+                The value <span>absolute</span> for the CSS property position enables an element to ignore sibling elements and instead be positioned relative to its closest parent element that is positioned with relative or absolute.
+                
+                The value <span>relative</span> of the CSS position property enables an element to be positioned relative to where it would have originally been on a web page.
+                </td>
+        </tr>
+        <tr>
+            <td>clear</td>
+            <td>none, left, right, both</td>
+            <td>The CSS clear property specifies how an element should behave when it bumps into another element within the same containing element.The clear is usually used in combination with elements having the CSS float property. This determines on which sides floating elements are allowed to float.</td>
+        </tr>
+        <tr>
+            <td>float</td>
+            <td>left, right</td>
+            <td>The CSS float property determines how far left or how far right an element should float within its parent element.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
